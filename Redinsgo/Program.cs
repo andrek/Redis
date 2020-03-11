@@ -86,8 +86,10 @@ namespace Redinsgo
       Console.WriteLine($"VENCEDOR: {vencedor} - Cartela: {redis.HashGet(vencedor, "bcartela")} - Score: {redis.HashGet(vencedor, "bscore")}");
       Console.WriteLine();
 
+      Console.WriteLine("Resultados dos Demais Participantes");
+
       // Demonstra pontuações dos demais participantes
-      for (int i = 1; i < QUANTIDADE_PARTICIPANTES; i++)
+      for (int i = 1; i <= QUANTIDADE_PARTICIPANTES; i++)
       {
         string usuario = GetKey("user", i);
 
