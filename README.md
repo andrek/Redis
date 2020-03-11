@@ -1,2 +1,2 @@
-# nosql
-Práticas da disciplina de Banco de Dados Não Relacionais (NOSQL)
+# Redis
+Práticas da disciplina de Banco de Dados Não Relacionais (Redis)
